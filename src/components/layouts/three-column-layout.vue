@@ -1,0 +1,27 @@
+<template>
+<div class='some-page-wrapper'>
+  <div class='row'>
+    <div class='column'>
+      <div class='blue-column'>
+        Some Text in Column One
+      </div>
+    </div>
+    <div class='column'>
+      <div class='green-column'>
+        Some Text in Column Two
+      </div>
+    </div>
+    <div class='column'>
+      <div class='orange-column'>
+        Some Text in Column Two
+      </div>
+    </div>
+  </div>
+</div>
+</template>
+<script lang="ts">
+
+</script>
+<style lang="scss" scoped>
+@import url('style/three-column-layout.scss');
+</style>
